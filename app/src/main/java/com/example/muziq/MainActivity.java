@@ -18,12 +18,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavBar);
+//This calls the bottom navigation panel
+        BottomNavigationView bottomNavigationView = findViewById(R.id.mainBottomNavBar);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-
+//Switch statement to determine which navigation button has been clicked and make the necessary intent
                 switch (menuItem.getItemId()) {
                     case R.id.nowplaying:
                         Intent intent = new Intent(MainActivity.this, NowPlaying_Activity.class);
