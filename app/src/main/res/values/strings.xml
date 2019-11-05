@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Muziq</string>
     <string name="title_activity_artist_activity">Artist_activity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="Songs">Songs</string>
+    <string name="search_hint"> Search Songs</string>
+    <string name="Song_Name">Song Name</string>
+    <string name="Library">Library</string>
 </resources>

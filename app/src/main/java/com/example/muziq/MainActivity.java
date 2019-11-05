@@ -40,24 +40,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        TextView Artist = findViewById(R.id.artist);
-        Artist.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Artist_Activity.class);
-                startActivity(intent);
-            }
-        });
-
-        TextView Albums = findViewById(R.id.album);
-        Albums.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Album_Activity.class);
-                startActivity(intent);
-            }
-        });
-
+// Menu items in main activity set with onclicklisteners
         TextView Songs = findViewById(R.id.songs);
         Songs.setOnClickListener(new View.OnClickListener() {
             @Override
