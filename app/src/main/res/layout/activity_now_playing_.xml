@@ -65,7 +65,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toLeftOf="@+id/playButton"
-            android:background="transparent"
+            android:background="@color/colorPrimaryDark"
             android:src="@drawable/ic_navigate_before_black_24dp" />
 
         <ImageButton
@@ -75,7 +75,7 @@
             android:layout_centerInParent="true"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
-            android:background="transparent"
+            android:background="@color/colorPrimaryDark"
             android:src="@drawable/ic_play_circle_filled_black_28dp" />
 
         <ImageButton
@@ -83,7 +83,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/playButton"
-            android:background="transparent"
+            android:background="@color/colorPrimaryDark"
             android:src="@drawable/ic_navigate_next_black_24dp" />
     </RelativeLayout>
 

@@ -6,4 +6,5 @@
     <string name="search_hint"> Search Songs</string>
     <string name="Song_Name">Song Name</string>
     <string name="Library">Library</string>
+    <string name="back">Back</string>
 </resources>
